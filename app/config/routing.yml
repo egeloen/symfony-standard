@@ -1,0 +1,2 @@
+ivory_google_map_demo:
+    resource: "@IvoryGoogleMapDemoBundle/Resources/config/routing.xml"
