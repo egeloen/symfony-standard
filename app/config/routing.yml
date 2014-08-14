@@ -1,3 +1,2 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+ivory_ck_editor_demo:
+    resource: "@IvoryCKEditorDemoBundle/Resources/config/routing.xml"
