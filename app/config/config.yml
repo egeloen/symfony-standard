@@ -65,3 +65,33 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+# Ivory CKEditor Configuration
+ivory_ck_editor:
+    default_config: "config"
+    configs:
+        config:
+            toolbar:      [[ "Source", "-", "CodeSnippet"]]
+            extraPlugins: "clipboard,codesnippet,dialog,lineutils,notification,widget,wordcount"
+    plugins:
+        clipboard:
+            path:     "/bundles/ivoryckeditordemo/clipboard/"
+            filename: "plugin.js"
+        codesnippet:
+            path:     "/bundles/ivoryckeditordemo/codesnippet/"
+            filename: "plugin.js"
+        dialog:
+            path:     "/bundles/ivoryckeditordemo/dialog/"
+            filename: "plugin.js"
+        lineutils:
+            path:     "/bundles/ivoryckeditordemo/lineutils/"
+            filename: "plugin.js"
+        notification:
+            path:     "/bundles/ivoryckeditordemo/notification/"
+            filename: "plugin.js"
+        widget:
+            path:     "/bundles/ivoryckeditordemo/widget/"
+            filename: "plugin.js"
+        wordcount:
+            path:     "/bundles/ivoryckeditordemo/wordcount/"
+            filename: "plugin.js"
