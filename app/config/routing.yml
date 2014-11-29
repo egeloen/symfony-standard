@@ -1,3 +1,2 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+ivory_http_adapter_demo:
+    resource: "@IvoryHttpAdapterDemoBundle/Resources/config/routing.xml"
