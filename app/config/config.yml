@@ -69,3 +69,16 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+ivory_ck_editor:
+    default_config: default
+    configs:
+        default:
+            stylesSet: "my_styles"
+    styles:
+        my_styles:
+            - { name: 'Blue Title', element: 'h2', styles: { 'color': 'Blue' }}
+            - { name: 'Red Title' , element: 'h3', styles: { 'color': 'Red' }}
+            - { name: 'CSS Style', element: 'span', attributes: { 'class': 'my_style' }}
+            - { name: 'P Style', element: 'p', attributes: { 'class': 'my_p' }}
+            - { name: 'Marker: Yellow', element: 'span', styles: { 'background-color': 'Yellow' }}
