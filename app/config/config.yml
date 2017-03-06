@@ -68,3 +68,7 @@ swiftmailer:
     username: '%mailer_user%'
     password: '%mailer_password%'
     spool: { type: memory }
+
+ivory_google_map:
+    map:
+        api_key: AIzaSyCp08xWCtPdF4tf13RW36QLuwUhaf3FirY
