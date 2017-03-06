@@ -17,7 +17,7 @@ class DemoType extends AbstractType
 function () {
     console.log("place_changes triggered!");
     
-    var place = autocomplete.getPlace();
+    var place = this.getPlace();
     console.log(place);
 }
 EOF
