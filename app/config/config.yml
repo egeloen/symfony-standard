@@ -68,3 +68,52 @@ swiftmailer:
     username: '%mailer_user%'
     password: '%mailer_password%'
     spool: { type: memory }
+
+ivory_ck_editor:
+    configs:
+        default:
+            uploadUrl: "/upload"
+            extraPlugins: "button,clipboard,dialog,dialogui,filetools,lineutils,notification,notificationaggregator,toolbar,uploadimage,uploadwidget,widget,widgetselection,youtube"
+    plugins:
+        button:
+            path: "/bundles/app/button/"
+            filename: "plugin.js"
+        clipboard:
+            path: "/bundles/app/clipboard/"
+            filename: "plugin.js"
+        dialog:
+            path: "/bundles/app/diaload/"
+            filename: "plugin.js"
+        dialogui:
+            path: "/bundles/app/dialogui/"
+            filename: "plugin.js"
+        filetools:
+            path: "/bundles/app/filetools/"
+            filename: "plugin.js"
+        lineutils:
+            path: "/bundles/app/lineutils/"
+            filename: "plugin.js"
+        notification:
+            path: "/bundles/app/notification/"
+            filename: "plugin.js"
+        notificationaggregator:
+            path: "/bundles/app/notificationaggregator/"
+            filename: "plugin.js"
+        toolbar:
+            path: "/bundles/app/toolbar/"
+            filename: "plugin.js"
+        uploadimage:
+            path: "/bundles/app/uploadimage/"
+            filename: "plugin.js"
+        uploadwidget:
+            path: "/bundles/app/uploadwidget/"
+            filename: "plugin.js"
+        widget:
+            path: "/bundles/app/widget/"
+            filename: "plugin.js"
+        widgetselection:
+            path: "/bundles/app/widgetselection/"
+            filename: "plugin.js"
+        youtube:
+            path: "/bundles/app/youtube/youtube/"
+            filename: "plugin.js"
